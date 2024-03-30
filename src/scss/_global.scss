@@ -1,0 +1,39 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+
+}
+
+.main {
+	flex: 1 0 auto;
+	
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+
+// Для того чтобы контент занимал всю ширину экрана, но при этом были
+// отступы по бокам
+.container-fluid{
+	// Что если у чувака больше монитор, то все равно чтобы ширина контента
+	// не было больше 1920px
+	max-width: 1920px;
+	padding: 0 10px;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
